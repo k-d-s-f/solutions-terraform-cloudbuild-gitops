@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "deductive-span-384908-tfstate"
     prefix = "env/dev"
   }
 }
